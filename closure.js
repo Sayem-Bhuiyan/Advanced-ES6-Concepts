@@ -15,3 +15,8 @@ x1()
 x2()
 x1();
 x2();
+const x3 = outerFunction();
+x3()
+x3()
+x3()
+x3()
