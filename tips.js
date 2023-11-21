@@ -11,3 +11,17 @@ function show(obj) {
 }
 
 show(person);
+
+const student = {
+    name: 'Sayem Bhuiyan',
+    id: 465508,
+    depertment: 'Computer'
+}
+function studentDetails(obj){
+    console.log(`
+    Student name is ${obj?.name}.
+    His student id is ${obj?.id}. 
+    His depertment is ${obj?.depertment}`)
+}
+
+studentDetails(student);
